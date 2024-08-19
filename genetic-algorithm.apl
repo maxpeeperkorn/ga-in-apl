@@ -30,6 +30,6 @@ GA←{budget←⍺ ⋄ ⍺ {hit ⍵ ∨ ⍺ = 0: (budget - ⍺) ⍵ ⋄ (⍺ - 1
 
 1000 GA init 100
 
-⍝ or do 6 runs in a row, this is the limit to display on the tryapl.org ;-)
+⍝ or do some runs in a row, this is the limit to display on the tryapl.org ;-)
 
-{1000 GA (init 100)} ¨ 6 1 ⍴ 1
+{1000 GA (init 100)} ¨ 6 1 ⍴ 1                ⍝ the right operand here creates a column vector
