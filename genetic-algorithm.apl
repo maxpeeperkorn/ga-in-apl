@@ -20,7 +20,7 @@ hit←{(≢ ⍵) = (fit ⍵)}                          ⍝  did we hit the optim
 ⍝  returns the number of iterations used 
 ⍝  and the best performing individual (the solution)
 
-GA←{max←⍺ ⋄ ⍺ {hit ⍵ ∨ ⍺ = 0: (max - ⍺) ⍵ ⋄ (⍺ - 1) ∇ ⍵ sel mut ⍵} ⍵} 
+GA←{budget←⍺ ⋄ ⍺ {hit ⍵ ∨ ⍺ = 0: (budget - ⍺) ⍵ ⋄ (⍺ - 1) ∇ ⍵ sel mut ⍵} ⍵} 
 
 ⍝  Example usage:
 
