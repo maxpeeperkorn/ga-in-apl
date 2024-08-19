@@ -1,7 +1,4 @@
 ⍝  1 + 1 Genetic Algorithm with a OneMax fitness function.
-⍝
-⍝  The OneMax fitness function is silly, optimizing something that is known.
-⍝  It is helpful for testing purposes.
 
 ⎕IO←0                                          ⍝  IMPORTANT
 
